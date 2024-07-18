@@ -1,0 +1,3 @@
+[submodule "apps/predictor-host-app"]
+	path = apps/predictor-host-app
+	url = https://github.com/predictor-rkpb/predictor-host-app.git
