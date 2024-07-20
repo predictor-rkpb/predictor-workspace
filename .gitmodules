@@ -1,3 +1,6 @@
 [submodule "apps/predictor-host-app"]
 	path = apps/predictor-host-app
 	url = https://github.com/predictor-rkpb/predictor-host-app.git
+[submodule "services/predictor-app-gw"]
+	path = services/predictor-app-gw
+	url = https://github.com/predictor-rkpb/predictor-app-gw.git
