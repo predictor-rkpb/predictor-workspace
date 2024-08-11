@@ -228,6 +228,68 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4(webpack@5.93.0)
 
+  services/predictor-master-api:
+    dependencies:
+      express:
+        specifier: ^4.19.2
+        version: 4.19.2
+    devDependencies:
+      '@types/express':
+        specifier: ^4.17.21
+        version: 4.17.21
+      '@types/node':
+        specifier: ^20.14.10
+        version: 20.14.11
+      nodemon:
+        specifier: ^3.1.4
+        version: 3.1.4
+      ts-loader:
+        specifier: ^9.5.1
+        version: 9.5.1(typescript@5.5.3)(webpack@5.93.0(webpack-cli@5.1.4))
+      ts-node:
+        specifier: ^10.9.2
+        version: 10.9.2(@types/node@20.14.11)(typescript@5.5.3)
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
+      webpack:
+        specifier: ^5.93.0
+        version: 5.93.0(webpack-cli@5.1.4)
+      webpack-cli:
+        specifier: ^5.1.4
+        version: 5.1.4(webpack@5.93.0)
+
+  services/predictor-tournament-api:
+    dependencies:
+      express:
+        specifier: ^4.19.2
+        version: 4.19.2
+    devDependencies:
+      '@types/express':
+        specifier: ^4.17.21
+        version: 4.17.21
+      '@types/node':
+        specifier: ^20.14.10
+        version: 20.14.11
+      nodemon:
+        specifier: ^3.1.4
+        version: 3.1.4
+      ts-loader:
+        specifier: ^9.5.1
+        version: 9.5.1(typescript@5.5.3)(webpack@5.93.0(webpack-cli@5.1.4))
+      ts-node:
+        specifier: ^10.9.2
+        version: 10.9.2(@types/node@20.14.11)(typescript@5.5.3)
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
+      webpack:
+        specifier: ^5.93.0
+        version: 5.93.0(webpack-cli@5.1.4)
+      webpack-cli:
+        specifier: ^5.1.4
+        version: 5.1.4(webpack@5.93.0)
+
 packages:
 
   '@ampproject/remapping@2.3.0':
@@ -2009,8 +2071,8 @@ packages:
     resolution: {integrity: sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ==}
     engines: {node: '>=6.0'}
 
-  chromedriver@127.0.1:
-    resolution: {integrity: sha512-j57OWXsxdhwK+faTWA2pi+8hf052qVjZjP0wXnjqY/QglHtlOXWhRj4s7/+ybJRNgs1zQ5csfOyV6sQQdH+Fnw==}
+  chromedriver@127.0.2:
+    resolution: {integrity: sha512-mYfJ/8FqzsdFOs2rPiAI4y0suFnv78cRnzZK0MHdSfSIDeRPbqZz0rNX4lrXt14hXc9vqXa+a8cMxlrhWtXKSQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6692,7 +6754,7 @@ snapshots:
 
   chrome-trace-event@1.0.4: {}
 
-  chromedriver@127.0.1:
+  chromedriver@127.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
       axios: 1.7.2
@@ -7932,7 +7994,7 @@ snapshots:
     dependencies:
       jwk-to-pem: 2.0.5
     optionalDependencies:
-      chromedriver: 127.0.1
+      chromedriver: 127.0.2
     transitivePeerDependencies:
       - debug
       - supports-color

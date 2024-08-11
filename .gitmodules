@@ -7,3 +7,9 @@
 [submodule "apps/predictor-header"]
 	path = apps/predictor-header
 	url = https://github.com/predictor-rkpb/predictor-header.git
+[submodule "services/predictor-tournament-api"]
+	path = services/predictor-tournament-api
+	url = https://github.com/predictor-rkpb/predictor-tournament-api.git
+[submodule "services/predictor-master-api"]
+	path = services/predictor-master-api
+	url = https://github.com/predictor-rkpb/predictor-master-api.git
