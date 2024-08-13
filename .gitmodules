@@ -13,3 +13,6 @@
 [submodule "services/predictor-master-api"]
 	path = services/predictor-master-api
 	url = https://github.com/predictor-rkpb/predictor-master-api.git
+[submodule "keycloak-predictor-theme"]
+	path = keycloak-predictor-theme
+	url = https://github.com/predictor-rkpb/keycloak-predictor-theme.git
